@@ -6,6 +6,40 @@
       "author": "typicode"
     }
   ],
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Уведомление 1",
+      "description": "Произошло какое-то событие",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Уведомление 2",
+      "description": "Произошло какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "3",
+      "title": "Уведомление 3",
+      "description": "Произошло какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "4",
+      "title": "Уведомление 4",
+      "description": "Произошло какое-то событие",
+      "userId": "1"
+    },
+    {
+      "id": "5",
+      "title": "Уведомление 1",
+      "description": "Произошло какое-то событие",
+      "userId": "2"
+    }
+  ],
   "comments": [
     {
       "id": 1,
@@ -42,6 +76,18 @@
       "articleId": 1,
       "userId": 1,
       "id": 6
+    },
+    {
+      "text": "Hey",
+      "articleId": 7,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "text": "Gey",
+      "articleId": "7",
+      "userId": 1,
+      "id": 8
     }
   ],
   "users": [
@@ -593,5 +639,6 @@
       "username": "Test",
       "avatar": "https://icon-library.com/images/avatar-png-icon/avatar-png-icon-13.jpg"
     }
-  ]
+  ],
+  "article-rating": []
 }
